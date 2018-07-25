@@ -11,15 +11,17 @@
 			font-family: "Century Gothic";
 			font-size: 1em;
 			width: 100%;
-			margin:12px;
+			
 			background-color: #1f1a17;
-			margin-left: -1em;
-			margin-top: -0.5em;
-			margin-right: -1em;
+			
 			text-align: right;
-			padding-top: 0.5em;
-			padding-right: 1.5em;
+			
 			height: 1.7em;
+		}
+		body
+		{
+			margin:0px;
+			padding:0px;
 		}
 		.linksdasredes
 		{
@@ -37,13 +39,12 @@
 		.botaodanavbar
 		{
 			font-size: 1.2em;
-			padding: 1%;
-			padding-right: 4%;
-			padding-top: 0%;
 			float: right;
 			font-family: "Century Gothic";
 			font-weight: lighter;
 			color: #1f1a17;
+			margin: 2em;
+			margin-bottom: 0px;
 		}	
 		.botaodanavbar:hover
 		{
@@ -51,18 +52,10 @@
 		}
 		.logo
 		{
+			margin-top: 0.5%;
 			margin-left: 12%;
 			width: 8em;
 			float:left;
-		}
-		navbar
-		{
-			width: 100%;
-			float:left;
-			box-shadow: 1px 2px 0px #1f1a17;
-			margin-left: -2em;
-			padding-right: 2.5em;
-			color: #1f1a17;
 		}
 		.ft
 		{
@@ -72,11 +65,54 @@
 			margin-left:-6px;
 			
 		}
-		.texto
+		.titulo
 		{
 			font-family: "Century Gothic";
 			font-weight: lighter;
 			padding-left: 15%;
+		}
+		.texto
+		{
+			padding-left: 10%;
+			padding-right: 10%;
+			text-align: justify;
+		}
+		.banner
+		{
+			background-image: url("imagemdeconsultoria.jpg");
+			background-size: cover;
+			position: center;
+			height: 400px;
+			margin-top: 2px;
+			
+		}
+		.cordobanner
+		{
+			background-color: #1f1a17;
+			opacity: 0.3;
+			height: 400px;
+			margin-top: 2px;
+		}
+		.navbar
+		{
+			margin-top:0px;	
+			height: 6em;
+			background-color: white;
+			margin-bottom: 0px;
+			box-shadow: 1px 2px 0px #1f1a17;
+			color: #1f1a17;
+		}
+		.chamada
+		{
+			margin-top: 0px;
+			margin-right: 15%;
+			margin-left: 15%;
+			font-family: "Century Gothic";
+			font-size: 3.3em;
+			color: #1f1a17;
+			text-align: justify;
+			position: absolute;
+			top:40%;
 		}
 		</style>
 </head>
@@ -86,20 +122,24 @@
 		<a href="" class="linksdasredes">facebook</a>
 		<a class="linksdasredes">(81)9.9999-9999</a>
 	</div>
-	<div>
-		<navbar>
+
+	<div class="navbar">
 			<img src="logotools.png" class="logo">
 			<p class="botaodanavbar">Contato</p>
 			<p class="botaodanavbar">Serviços</p>
 			<p class="botaodanavbar">Quem Somos</p>
 			<p class="botaodanavbar">Home</p>
-		</navbar>
-	</div>	
-	<div>
-		<img class="ft" src="imagemdeconsultoria.jpg">
+	</div>
+	<div class="banner">
+		<div class="cordobanner">
+			<p class="chamada">Procura uma consultoria em gestão para alavancar ou começar sua empresa?</p>	
+		</div>
 	</div>
 	<div>
-		<h1 align="justify" class="texto">Sua solução em Gestão, Consultoria e Desenvolvimento Web</h1>
+		<h1 align="justify" class="titulo">Sua solução em Gestão, Consultoria e Desenvolvimento Web</h1>
+	</div>
+	<div>
+		<p class="texto">A TooLss surgiu blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah</p>
 	</div>
 </body>
 </html>
