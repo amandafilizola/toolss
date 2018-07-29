@@ -47,7 +47,7 @@ body
 }	
 .botaodanavbar:hover
 {
-	color: #29166f ;
+	color: #29166f;
 }
 .logo
 {
@@ -188,12 +188,8 @@ a
 }
 .nossosclientes
 {
-	float: left;
-	width: 100%;
 	height: 400px;
 	font-family: "Century Gothic";
-	background-image: url("fofo.jpg");
-	background-position: center;
 }
 .titulonossosclientes
 {
@@ -206,13 +202,16 @@ a
 {
 	width: 100%;
 	float: left;
-	margin: 2%;
 	font-size: 40%;
 }
 .clientes img
 {
 	width: 8%;
 	float: left;
-	margin: 2%;
-	height: 60px;
+	margin: 2.2%;
+	margin-top: 6%;
+	height: 8%;
+ 	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
