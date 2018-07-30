@@ -1,3 +1,4 @@
+
 .flutuaisso
 {
 	position: fixed;
@@ -89,7 +90,7 @@ body
 }
 .banner
 {
-	background-image: url("imagemdeconsultoria.jpg");
+	background-image: url("bfotos/imagemdeconsultoria.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 400px;
@@ -214,4 +215,19 @@ a
  	position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 500px) 
+{
+	
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) 
+{
+
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) 
+{
+
 }
